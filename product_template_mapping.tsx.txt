@@ -1,0 +1,5 @@
+template	name	description
+rds/sc-rds-postgresql-ra.json	Amazon RDS PostgreSQL Database	This product builds an Amazon AWS RDS PostgreSQL master database instance with options for a single instance or multi-az instances.
+rds/sc-rds-mysql-ra.json	Amazon RDS MySQL Database	This product builds an Amazon AWS RDS MySQL master database instance with options for a single instance or multi-az instances.
+rds/sc-rds-mariadb-ra.json	Amazon RDS MariaDB Database	This product builds an Amazon AWS RDS MariaDB master database instance with options for a single instance or multi-az instances.
+ecs/fargate-private-vpc.yaml	ECS Fargate Cluster	
