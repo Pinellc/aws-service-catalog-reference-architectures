@@ -1,12 +1,12 @@
 {
     "AWSTemplateFormatVersion": "2010-09-09",
-    "Description": "Service Catalog: EC2 Reference Architecture(fdp-1oc5f3ula).",
+    "Description": "Service Catalog: EC2 Reference Architecture(fdp-1oc5f3ula). CHANGING DESCRIPTION HERE",
     "Metadata": {
         "AWS::CloudFormation::Interface": {
             "ParameterGroups": [
                 {
                     "Label": {
-                        "default": "General Configuration"
+                        "default": "General Configuration HELLO WORLD"
                     },
                     "Parameters": [
                         "VPC",

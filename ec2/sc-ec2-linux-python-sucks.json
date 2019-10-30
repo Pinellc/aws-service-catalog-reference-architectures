@@ -1,0 +1,19 @@
+{
+    "Description": "AWS EC2 NGINX webserver (fdp-1p4dlgcpk)",
+    "Parameters": {
+        "VPC": {
+            "Type": "AWS::EC2::VPC::Id",
+            "Description": "Select the VPC where the EC2 instances will be created",
+            "ConstraintDescription": "must be an existing VPC"
+        },
+        "InstanceType": {
+            "Type": "String",
+            "Default":"t3.micro",
+            "AllowedValues": ["t2.micro","t2.medium","t3.micro","t3.medium","t3.large"]
+        },
+        "LatestAmiId": {
+            "Type": "AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>",
+            "Default": "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"            
+        }
+    }
+}
