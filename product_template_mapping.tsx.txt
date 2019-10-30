@@ -4,3 +4,4 @@ rds/sc-rds-mysql-ra.json	Amazon RDS MySQL Database	This product builds an Amazon
 rds/sc-rds-mariadb-ra.json	Amazon RDS MariaDB Database	This product builds an Amazon AWS RDS MariaDB master database instance with options for a single instance or multi-az instances.
 ecs/fargate-private-vpc.yaml	ECS Fargate Cluster
 ec2/sc-ec2-linux-python-sucks.json	PYTHON REALLY SUCKS!	This product tells us that Python sucks.
+ec2/sc-ec2-linux-ra.json	Amazon EC2 Linux Instance	This product builds an Amazon AWS EC2 Linux instance.
